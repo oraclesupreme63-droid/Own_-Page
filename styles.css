@@ -2,6 +2,12 @@
 /* GENERAL                                   */
 /* ========================================= */
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     max-width: 1000px;
     margin: 40px auto;
